@@ -1,0 +1,25 @@
+{% extends 'layouts/base.html' %}
+    
+{% block content %}
+    <h4>envio de proyectos</h4>
+    {% for task in tasks %}
+        <h4>{{ task.title }}</h4>
+        {% if task.done == False %}
+            <p>tarea pendiente</p>
+        {% else %}
+            <p>tarea realizada8</p>
+        {% endif %}
+        <p>{{ task.descriptions }}</p>
+        <p>project: {{ task.Project.name }}</p>
+    {% endfor %}
+
+    <h3>create new projects</h3>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button>
+            Save 
+        </button>
+    </form>
+    
+{% endblock %}
