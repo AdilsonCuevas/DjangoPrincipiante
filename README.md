@@ -15,7 +15,6 @@ comandos:
 	inclusion de rutas en diferentes aplicaciones teniendo en cuenta la principal y/o anidadas
 	descargar mysqlite browser portable para visualizar la base de datos por defecto
 	agregar las apps en settings.py installed_apps
-
 	migraciones DB -> 
 		python manage.py makemigrations <app_especifica>
 		python manage.py migrate 
