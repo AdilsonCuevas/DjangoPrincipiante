@@ -37,6 +37,8 @@ agregar las apps en settings.py installed_apps
 
 
 secciones del curso 
+
+
 	- instalacion de python y django.
 	- crear apps dentro del mismo proyecto.
 	- realizar migraciones a la base de datos y visualizarlas o incluirla en un servidor de base de datos.
