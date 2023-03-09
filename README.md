@@ -13,11 +13,13 @@ comandos:
 		python manage.py runserver <3000> cancelar serve contrl+c
 	Django apps -> 
 		python manage.py startapp store
-		
-	inclusion de rutas en diferentes aplicaciones teniendo en cuenta la principal y/o anidadas
-	descargar mysqlite browser portable para visualizar la base de datos por defecto
-	agregar las apps en settings.py installed_apps
 	
+	
+inclusion de rutas en diferentes aplicaciones teniendo en cuenta la principal y/o anidadas
+descargar mysqlite browser portable para visualizar la base de datos por defecto
+agregar las apps en settings.py installed_apps
+
+
 	migraciones DB -> 
 		python manage.py makemigrations <app_especifica>
 		python manage.py migrate 
@@ -34,12 +36,11 @@ comandos:
 	templates -> render
 
 
-
 secciones del curso 
-	instalacion de python y django.
-	crear apps dentro del mismo proyecto.
-	realizar migraciones a la base de datos y visualizarlas o incluirla en un servidor de base de datos.
-	realizar rutas url. 
-	incorporar templates y envio de varialbles al frontend (documentacion jinja https://jinja.palletsprojects.com/en/3.1.x/).
-	creacion de formularios con django y guardar en la base de datos.
-	archivos estaticos.
+	- instalacion de python y django.
+	- crear apps dentro del mismo proyecto.
+	- realizar migraciones a la base de datos y visualizarlas o incluirla en un servidor de base de datos.
+	- realizar rutas url. 
+	- incorporar templates y envio de varialbles al frontend (documentacion jinja https://jinja.palletsprojects.com/en/3.1.x/).
+	- creacion de formularios con django y guardar en la base de datos.
+	- archivos estaticos.
