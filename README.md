@@ -2,6 +2,7 @@
 programa de inicio al framework de Django
 
 comandos: 
+
 	maquina virtual -> 
 		pip install virtualenv
 		virtualenv venv
@@ -12,9 +13,11 @@ comandos:
 		python manage.py runserver <3000> cancelar serve contrl+c
 	Django apps -> 
 		python manage.py startapp store
+		
 	inclusion de rutas en diferentes aplicaciones teniendo en cuenta la principal y/o anidadas
 	descargar mysqlite browser portable para visualizar la base de datos por defecto
 	agregar las apps en settings.py installed_apps
+	
 	migraciones DB -> 
 		python manage.py makemigrations <app_especifica>
 		python manage.py migrate 
